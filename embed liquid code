@@ -1,0 +1,11 @@
+<h3  class="related-products-title">
+		Embed this tee on your blog 
+    </h3>
+<textarea style="text-align=center; width: 100%;  height: 100px;" >
+<div style="text-align:center;line-height:150%">
+<a href="https://chummytees.com{{ product.url }}"><img src="https:{{ product | image_url: width: 1048 }}" alt="{{ product.title }}" style="border:0;" /></a>
+<br/>
+<a href="https://chummytees.com{{ product.url }}">{{ product.title }}</a>
+<br/>by <a href="https://chummytees.com">Chummy Tees</a>
+</div>
+</textarea>
